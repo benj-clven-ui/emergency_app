@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backb"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|left"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dial"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/icon4"
+            android:textStyle="bold|italic"
+            android:onClick="emergency1"/>
+
+        <Button
+            android:id="@+id/dial2"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/icon3"
+            android:onClick="emergency2"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/dial3"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/icon2"
+            android:onClick="emergency3"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="120dp"
+            android:background="@drawable/mess"
+            android:onClick="mess1"
+            android:text="sms"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/mess"
+            android:onClick="mess2"
+            android:text="sms"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/mess"
+            android:onClick="mess3"
+            android:text="sms"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|right|bottom">
+
+        <Button
+            android:id="@+id/mainButton"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@drawable/alarm"
+            android:onClick="alarmBut"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|right"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/adding"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/add"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:onClick="UploadData"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="310dp"
+            android:background="@drawable/cam"
+            android:textStyle="bold|italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/seal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Emergency Application"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BISLIG CITY, SURIGAO DEL SUR"
+        android:textAlignment="center"
+        android:layout_marginLeft="45dp"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="#99FC27"
+        android:layout_marginTop="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

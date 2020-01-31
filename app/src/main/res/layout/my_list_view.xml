@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:gravity="top|center|center_vertical"
+    android:background="@drawable/back_new">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back_arrow"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="150dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/famhead"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|center|center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:paddingRight="27dp"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|center|center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CP #:"
+            android:paddingRight="29dp"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:inputType="phone"
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|center|center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Address:"/>
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:inputType="textPostalAddress"
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/editTextCity"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:onClick="run"
+        android:background="@drawable/updatebutt"/>
+
+
+</LinearLayout>
+

@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">B7 Emergency App</string>
+<!--    <string name="Username">Username</string>-->
+<!--    <string name="Password">Password</string>-->
+<!--    <string name="RememberMe">Remember Me</string>-->
+<!--    <string name="Login">Login</string>-->
+<!--    <string name="Register">Register</string>-->
+<!--    <string name="Logo">Logo</string>-->
+<!--    <string name="FirstName">FirstName</string>-->
+<!--    <string name="LastName">LastName</string>-->
+<!--    <string name="Email">Email</string>-->
+<!--    <string name="ConfirmEmailAddress">Confirm Email Address</string>-->
+<!--    <string name="SignUp">Sign Up</string>-->
+<!--    <string name="registrationPage">Registration Page</string>-->
+
+
+    <string name="email">Email ID</string>
+    <string name="passowrd">Password</string>
+    <string name="fullName">Full Name</string>
+    <string name="address">Address</string>
+    <string name="bday">BirthDay</string>
+    <string name="age">Age</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="confirmEmail">Confirm Email</string>
+    <string name="confirmPassowrd">Confirm Password</string>
+
+
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="newUser">Not a Member yet?</string>
+
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account?</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+
+
+
+
+<!--    <string-array  name="barangay">-->
+<!--        <item>Brgy. Bucto</item>-->
+<!--        <item>Brgy. Burboanan</item>-->
+<!--        <item>Brgy. Caguyao</item>-->
+<!--        <item>Brgy. Coleto</item>-->
+<!--        <item>Brgy. Comawas</item>-->
+<!--        <item>Brgy. Kahayag</item>-->
+<!--        <item>Brgy. Labisma</item>-->
+<!--        <item>Brgy. Lawigan</item>-->
+<!--        <item>Brgy. Maharlika</item>-->
+<!--        <item>Brgy. Mangagoy</item>-->
+<!--        <item>Brgy. Mone</item>-->
+<!--        <item>Brgy. Pamanlinan</item>-->
+<!--        <item>Brgy. Pamaypayan</item>-->
+<!--        <item>Brgy. Poblacion</item>-->
+<!--        <item>Brgy. SanAntonio</item>-->
+<!--        <item>Brgy. SanFernando</item>-->
+<!--        <item>Brgy. SanIsidro</item>-->
+<!--        <item>Brgy. SanJose</item>-->
+<!--        <item>Brgy. SanRoque</item>-->
+<!--        <item>Brgy. SanVicente</item>-->
+<!--        <item>Brgy. SantaCruz</item>-->
+<!--        <item>Brgy. Sibaroy</item>-->
+<!--        <item>Brgy. Tabon</item>-->
+<!--        <item>Brgy. Tumanan</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array id="mangagoy" name="district">-->
+<!--        <item>Castillo Dist.</item>-->
+<!--        <item>Gamaon Dist.</item>-->
+<!--        <item>Bongaitan Dist.</item>-->
+<!--        <item>Caramcam Dist.</item>-->
+<!--        <item>Bosco Dist.</item>-->
+<!--        <item>Manggawong Dist.</item>-->
+<!--        <item>Riverside Dist.</item>-->
+<!--        <item>Bogac Dist.</item>-->
+<!--        <item>Bareda Dist.</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="purok">-->
+<!--        <item>Purok_1</item>-->
+<!--        <item>Purok_2</item>-->
+<!--        <item>Purok_3</item>-->
+<!--        <item>Purok_4</item>-->
+<!--        <item>Purok_5</item>-->
+<!--        <item>Purok_6</item>-->
+
+<!--    </string-array>-->
+
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="CONTACTS"
+        android:textColor="#FFFFFF"
+        android:textSize="60dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical">
+            <Button
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/back_arrow"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fam"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/familye"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/friend"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/friendse"/>
+
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginBottom="170dp">-->
+
+<!--        <Button-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:background="@drawable/callingbck"-->
+<!--            android:id="@+id/fam_call"-->
+<!--            android:layout_marginRight="180dp"/>-->
+
+<!--        <Button-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:background="@drawable/calling"-->
+<!--            android:id="@+id/friend_call"/>-->
+
+
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
